@@ -65,7 +65,7 @@ A full-stack structural engineering AI backend that powers:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # tighten in production to your frontend domain
+    allow_origins=["*", "https://structai-designer.onrender.com"],          # allow all for flexibility, specifically adding the production URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -101,7 +101,6 @@ if os.path.isdir(FRONTEND_DIR):
     @app.get("/column-grid", include_in_schema=False)
     async def serve_column_grid_page():
         return FileResponse(os.path.join(FRONTEND_DIR, "column_grid.html"))
-
 
 # ── Health ────────────────────────────────────────────────────────────────────
 

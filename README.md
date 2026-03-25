@@ -11,7 +11,10 @@ FastAPI · Python 3.11+ · SQLite · IS 456 / IS 875 / NBC 2016
 | :--- | :--- | :--- |
 | **Main Dashboard** | [http://localhost:8000/](http://localhost:8000/) | Structural analysis & cost optimization dashboard |
 | **2D Floor Plan** | [http://localhost:8000/floorplan](http://localhost:8000/floorplan) | Interactive 2D layout with drag-and-drop & road context |
+<<<<<<< HEAD
 | **Column Grid Model** | [http://localhost:8000/column-grid](http://localhost:8000/column-grid) | Dynamic 3D column grid with customizable shapes & sizes |
+=======
+>>>>>>> 763b98eb37fc47867794503e0de0b488d4cb64c3
 | **Soil Analysis** | [http://localhost:8000/soil](http://localhost:8000/soil) | Soil bearing capacity & FSI calculation tools |
 | **API Documentation** | [http://localhost:8000/docs](http://localhost:8000/docs) | Interactive Swagger UI for all API endpoints |
 | **ReDoc** | [http://localhost:8000/redoc](http://localhost:8000/redoc) | Alternative API documentation view |
